@@ -1,0 +1,37 @@
+<div class="container">
+  <h3 class="h4 text-success font-weight-bold mb-4">Tabs</h3>
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <!-- Tabs with icons -->
+      <div class="mb-3">
+        <small class="text-uppercase font-weight-bold">Definitions</small>
+      </div>
+        <ngb-tabset [justify]="'center'" class="custom-tab-content flex-column flex-md-row" type="pills">
+            <ngb-tab>
+              <ng-template ngbTabTitle>
+                <i class="ni ni-cloud-upload-96 mr-2"></i> AngularJS
+              </ng-template>
+                <ng-template ngbTabContent>
+                  <p class="description">AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.</p>
+                  </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>
+                <i class="ni ni-bell-55 mr-2"></i>Html
+              </ng-template>
+                <ng-template ngbTabContent>
+                    <p class="description">First developed by Tim Berners-Lee in 1990, HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web.</p>
+                </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>
+                  <i class="ni ni-calendar-grid-58 mr-2"></i> Typescript
+              </ng-template>
+                <ng-template ngbTabContent>
+                    <p class="description">TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.</p>
+                </ng-template>
+            </ngb-tab>
+        </ngb-tabset>
+    </div>
+  </div>
+</div>
